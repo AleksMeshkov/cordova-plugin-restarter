@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="com.malex.cordova.plugin.webview-reloader" version="1.0.5">
-    <name>Restarter</name>
+        id="com.malex.cordova.plugin.webview-reloader" version="1.0.6">
+    <name>WebView Reloader</name>
     <description>Cordova WebView Reloader Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,reloader,reload,ios</keywords>
