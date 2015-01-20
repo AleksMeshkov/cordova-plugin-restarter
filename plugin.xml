@@ -17,4 +17,12 @@
         <header-file src="src/ios/WebViewReloader.h" />
         <source-file src="src/ios/WebViewReloader.m" />
     </platform>
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="WebViewReloader">
+                <param name="android-package" value="com.malex.cordova.plugin.WebviewReloader"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/com/malex/cordova/plugin/WebviewReloader.java" target-dir="src/com/malex/cordova/plugin" />
+    </platform>
 </plugin>
