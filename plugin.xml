@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="com.malex.cordova.plugin.webview-reloader" version="1.1.1">
+        id="com.malex.cordova.plugin.webview-reloader" version="1.1.2">
     <name>WebView Reloader</name>
     <description>Cordova WebView Reloader Plugin</description>
     <license>Apache 2.0</license>
@@ -20,9 +20,9 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="WebViewReloader">
-                <param name="android-package" value="com.malex.cordova.plugin.WebviewReloader"/>
+                <param name="android-package" value="com.malex.cordova.plugin.WebViewReloader"/>
             </feature>
         </config-file>
-        <source-file src="src/android/com/malex/cordova/plugin/WebviewReloader.java" target-dir="src/com/malex/cordova/plugin" />
+        <source-file src="src/android/com/malex/cordova/plugin/WebViewReloader.java" target-dir="src/com/malex/cordova/plugin" />
     </platform>
 </plugin>
